@@ -18,3 +18,8 @@ func (t *Teacher) ShowAge() {
 	fmt.Printf("%s ShowAge:%d", t.Name, t.Age)
 
 }
+
+func (t *Teacher) ShowClass() {
+	fmt.Printf("%s ShowClass:%d", t.Name, t.Class)
+
+}
