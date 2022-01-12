@@ -4,4 +4,6 @@ type User interface {
 	SayHello()
 
 	ShowAge()
+
+	ShowName()
 }
