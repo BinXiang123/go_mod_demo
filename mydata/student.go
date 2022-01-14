@@ -29,8 +29,8 @@ func (s *Student) ShowAge() {
 	fmt.Printf("%s show age:%d", s.Name, s.Age)
 }
 
-func ShowName2() {
-	fmt.Println("hello")
-	// nums := []float64{4.62, 90.31, 18.4, 70, 498}
-	// avg := Average(nums)
+func (s *Student) ShowName() {
+	//panic("not implemented") // TODO: Implement
+	fmt.Printf("ShowName:%s", s.Name)
 }
+

@@ -19,6 +19,12 @@ func (t *Teacher) ShowAge() {
 
 }
 
+func (t *Teacher) ShowName() {
+	//panic("not implemented") // TODO: Implement
+	fmt.Printf("ShowName:%s", t.Name)
+
+}
+
 func (t *Teacher) ShowClass() {
 	fmt.Printf("%s ShowClass:%d", t.Name, t.Class)
 
